@@ -1,0 +1,98 @@
+.navbar-marketing .navbar-brand {
+    font-size: 1.6rem !important;
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 768px) {
+    .page-header-ui {
+        position: relative;
+        padding-top: 5rem;
+        padding-bottom: 8rem;
+    }
+}
+
+.product__main-image{
+    height: 358px;
+    width: auto;
+}
+
+.product__title{
+    font-size: 1.25rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .page-header-ui .page-header-ui-content .page-header-ui-title{
+      font-size: 3.5rem;
+    }
+}
+
+#style-switcher{
+    display: none !important;
+}
+
+@media (min-width: 1200px){
+    h1, .h1 {
+        font-size: 2.5rem;
+    }
+}
+
+h1, .h1 {
+    font-size: calc(2.275rem + 0.3vw);
+    margin-bottom: 1.5rem;
+}
+
+@media (min-width: 1200px){
+    h2, .h2 {
+        font-size: 2.2rem;
+    }
+}
+
+h2, .h2 {
+    font-size: calc(2.075rem + 0.3vw);
+    margin-bottom: 1rem;
+}
+
+.lead {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.product-grid__wrapper{
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 358px;
+    overflow: hidden;
+}
+
+.product-grid__wrapper .product__main-image{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    object-fit: cover;
+    max-height: 240px;
+    width: auto;
+}
+
+body .navbar-marketing{
+    background-color: #fff !important;
+}
+
+.download-icon{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+}
+
+.download-icon svg{
+    width: 1.8rem;
+    height: 1.8rem;
+    margin-left: 0.8rem;
+}
+
+.image__main{
+    width: 100%;
+    height: auto;
+}
